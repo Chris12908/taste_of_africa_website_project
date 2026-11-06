@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Our mission and a short history of African cuisine.">
+  <title>About Us | Tastes of Africa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bowlby+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="logo" href="index.html">Tastes of Africa</a>
+    <nav aria-label="Main navigation">
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="regions.html">Regions</a></li>
+        <li><a href="about.html" aria-current="page">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<div class="page-head"><div class="wrap"><h1>About us</h1></div></div>
+<section>
+  <div class="wrap">
+    <blockquote class="mission" style="margin-left:0">Our mission is to keep African food heritage alive and easy to cook.</blockquote>
+    <p>Tastes of Africa collects family recipes, regional food knowledge and the stories behind them, so that dishes like <mark>fufu</mark> and <mark>doro wat</mark> are as familiar to a home cook in Kigali as in Kansas.</p>
+  </div>
+</section>
+<section class="band-red">
+  <div class="wrap">
+    <h2>A short history of African cuisine</h2>
+    <ol class="timeline">
+      <li><strong>Before 1000 CE</strong>Farmers across the continent domesticate <mark>sorghum</mark>, <mark>millet</mark>, <mark>teff</mark> and yams.</li>
+      <li><strong>1000 to 1500</strong>Indian Ocean and trans-Saharan trade bring <mark>cardamom</mark>, rice and new cooking methods to coastal and desert cities.</li>
+      <li><strong>1500 to 1800</strong>Crops from the Americas, including <mark>cassava</mark>, maize and chili peppers, reshape what the continent eats.</li>
+      <li><strong>Today</strong>The African diaspora carries jollof, injera and fufu to restaurants in London, Washington and Sao Paulo.</li>
+    </ol>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2>A food landmark: Makola Market, Accra</h2>
+    <p>One of West Africa's busiest markets, and the place to find the cassava, plantain and peppers used in our recipes.</p>
+    <div class="map"><iframe src="https://maps.google.com/maps?q=Makola+Market+Accra+Ghana&output=embed" title="Map of Makola Market in Accra, Ghana" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>About</h3>
+        <p>A student project celebrating the food, people and history of the African continent.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="recipes.html">All recipes</a></li>
+          <li><a href="west-africa.html">West Africa</a></li>
+          <li><a href="east-africa.html">East Africa</a></li>
+          <li><a href="north-africa.html">North Africa</a></li>
+          <li><a href="southern-africa.html">Southern Africa</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get new recipes</h3>
+        <form class="news-form" id="news-form">
+          <label class="sr-only" for="news-email">Email address</label>
+          <input type="email" id="news-email" placeholder="you@example.com" required>
+          <button class="btn alt" type="submit">Subscribe</button>
+        </form>
+        <p class="news-msg" id="news-msg" aria-live="polite"></p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Tastes of Africa. Images are used for educational purposes.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
