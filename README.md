@@ -2,7 +2,7 @@
 
 A multi-page website celebrating African food, with 7 recipes across West, East, North and Southern Africa. Built with HTML, CSS and JavaScript.
 
-**Live site:** https://Chris12908.github.io/taste_of_africa_website_project/
+**Live site:** https://github.com/Chris12908/taste_of_africa_website_project
 **Author:** Chris Marcel Hakizimana
 
 ## Pages
