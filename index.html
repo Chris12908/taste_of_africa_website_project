@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="African recipes, regions and food stories.">
+  <title>Home | Tastes of Africa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bowlby+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="logo" href="index.html">Tastes of Africa</a>
+    <nav aria-label="Main navigation">
+      <ul id="nav-list">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="regions.html">Regions</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>From the pounding mortar to the berbere pot</h1>
+      <p>Seven dishes, four regions and a lot of stories about how Africa eats. Start with a recipe you can cook this week.</p>
+      <p>Fufu from Ghana, doro wat from Ethiopia, and the <mark>spices</mark> that make them what they are.</p>
+      <a class="btn alt" href="recipes.html">Browse the recipes</a>
+    </div>
+    <div>
+      <div class="video"><iframe src="https://www.youtube.com/embed/UY3H5a_Hi3A" title="Introduction to African food culture" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <p class="video-cap">Watch: an introduction to African food culture.</p>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="featured">
+  <div class="wrap">
+    <h2 id="featured">Featured dishes</h2>
+    <div class="grid">
+<article class="card recipe-card" data-region="west-africa" id="card-fufu">
+  <figure>
+    <img src="https://i.pinimg.com/736x/27/d6/33/27d6339e66ff34ceddf781622dc0443c.jpg" alt="A plate of Fufu" loading="lazy">
+    <figcaption>Fufu <span class="tag">West Africa</span></figcaption>
+  </figure>
+  <div class="card-body">
+    <p>A smooth, stretchy dough of pounded <mark>cassava</mark> and <mark>plantain</mark>, made to scoop up soup.</p>
+    <div class="card-actions">
+      <a class="more" href="fufu.html">View recipe</a>
+      <button class="fav-btn" type="button" data-id="fufu" aria-pressed="false"><span class="heart">❤️</span> Favorite</button>
+    </div>
+  </div>
+</article>
+<article class="card recipe-card" data-region="east-africa" id="card-doro-wat">
+  <figure>
+    <img src="https://i.pinimg.com/736x/1d/3b/cb/1d3bcb0d9bb1bdc71a7a23d32408cfe4.jpg" alt="A plate of Doro Wat" loading="lazy">
+    <figcaption>Doro Wat <span class="tag east">East Africa</span></figcaption>
+  </figure>
+  <div class="card-body">
+    <p>Ethiopia's celebration stew: chicken slow-cooked in <mark>berbere</mark> and spiced butter.</p>
+    <div class="card-actions">
+      <a class="more" href="doro-wat.html">View recipe</a>
+      <button class="fav-btn" type="button" data-id="doro-wat" aria-pressed="false"><span class="heart">❤️</span> Favorite</button>
+    </div>
+  </div>
+</article>
+<article class="card recipe-card" data-region="east-africa" id="card-chicken-kienyeji">
+  <figure>
+    <img src="https://i.pinimg.com/736x/0f/70/6c/0f706c7854f6f4d005e27e1847cf172a.jpg" alt="A plate of Chicken Kienyeji" loading="lazy">
+    <figcaption>Chicken Kienyeji <span class="tag east">East Africa</span></figcaption>
+  </figure>
+  <div class="card-body">
+    <p>Free-range Kenyan chicken stewed with <mark>tomato</mark>, <mark>turmeric</mark> and fresh <mark>coriander</mark>.</p>
+    <div class="card-actions">
+      <a class="more" href="chicken-kienyeji.html">View recipe</a>
+      <button class="fav-btn" type="button" data-id="chicken-kienyeji" aria-pressed="false"><span class="heart">❤️</span> Favorite</button>
+    </div>
+  </div>
+</article>
+<article class="card recipe-card" data-region="west-africa" id="card-fried-plantain">
+  <figure>
+    <img src="https://i.pinimg.com/736x/de/1a/1d/de1a1d9f9a533c49b49ee90f644a5dec.jpg" alt="A plate of Fried Plantain" loading="lazy">
+    <figcaption>Fried Plantain <span class="tag">West Africa</span></figcaption>
+  </figure>
+  <div class="card-body">
+    <p>Ripe <mark>plantain</mark> fried until the edges caramelise. Sweet, salty and a little spicy.</p>
+    <div class="card-actions">
+      <a class="more" href="fried-plantain.html">View recipe</a>
+      <button class="fav-btn" type="button" data-id="fried-plantain" aria-pressed="false"><span class="heart">❤️</span> Favorite</button>
+    </div>
+  </div>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="band-red" aria-labelledby="regions">
+  <div class="wrap">
+    <h2 id="regions">Explore by region</h2>
+    <div class="grid">
+      <a class="region-card" href="west-africa.html">
+        <img src="https://i.pinimg.com/736x/27/d6/33/27d6339e66ff34ceddf781622dc0443c.jpg" alt="Fufu served in West Africa" loading="lazy">
+        <span><strong>West Africa</strong>Pounded starches, palm oil, smoky stews.</span>
+      </a>
+      <a class="region-card" href="east-africa.html">
+        <img src="https://i.pinimg.com/736x/1d/3b/cb/1d3bcb0d9bb1bdc71a7a23d32408cfe4.jpg" alt="Doro wat served in East Africa" loading="lazy">
+        <span><strong>East Africa</strong>Berbere, injera, beans and slow-cooked chicken.</span>
+      </a>
+      <a class="region-card" href="north-africa.html">
+        <img src="https://i.pinimg.com/1200x/f7/04/8c/f7048c7af092755b7cba0b51bc6d31cd.jpg" alt="Moroccan couscous with vegetables, from North Africa" loading="lazy">
+        <span><strong>North Africa</strong>Couscous, chickpeas and warm spice blends.</span>
+      </a>
+      <a class="region-card" href="southern-africa.html">
+        <img src="https://i.pinimg.com/736x/73/23/fe/7323fe92f0fc83a772e9f3d8ab295155.jpg" alt="Chicken feet and samp, from Southern Africa" loading="lazy">
+        <span><strong>Southern Africa</strong>Maize, samp, curry and open-fire cooking.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="trends">
+  <div class="wrap">
+    <h2 id="trends">Latest food trends</h2>
+    <div class="grid">
+      <article class="trend">
+        <time datetime="2026-10-12">12 October 2026</time>
+        <h3>Plant-based African cooking is growing</h3>
+        <p>Dishes built on <mark>beans</mark>, greens and <mark>groundnuts</mark> have always been plant-forward. Restaurants abroad are now putting them at the centre of the menu.</p>
+      </article>
+      <article class="trend">
+        <time datetime="2026-09-28">28 September 2026</time>
+        <h3>Fufu moves into supermarkets</h3>
+        <p>Instant <mark>cassava</mark> and <mark>plantain</mark> flours are now stocked in cities across Europe and North America.</p>
+      </article>
+      <article class="trend">
+        <time datetime="2026-09-03">3 September 2026</time>
+        <h3>Ancient grains are back</h3>
+        <p>Chefs are rediscovering <mark>fonio</mark>, <mark>teff</mark> and sorghum for their flavour and their resilience to drought.</p>
+      </article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>About</h3>
+        <p>A student project celebrating the food, people and history of the African continent.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="recipes.html">All recipes</a></li>
+          <li><a href="west-africa.html">West Africa</a></li>
+          <li><a href="east-africa.html">East Africa</a></li>
+          <li><a href="north-africa.html">North Africa</a></li>
+          <li><a href="southern-africa.html">Southern Africa</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get new recipes</h3>
+        <form class="news-form" id="news-form">
+          <label class="sr-only" for="news-email">Email address</label>
+          <input type="email" id="news-email" placeholder="you@example.com" required>
+          <button class="btn alt" type="submit">Subscribe</button>
+        </form>
+        <p class="news-msg" id="news-msg" aria-live="polite"></p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Tastes of Africa. Images are used for educational purposes.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
