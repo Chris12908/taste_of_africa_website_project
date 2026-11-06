@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Food culture of Southern Africa">
+  <title>Southern Africa | Tastes of Africa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bowlby+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="logo" href="index.html">Tastes of Africa</a>
+    <nav aria-label="Main navigation">
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="regions.html" aria-current="page">Regions</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<div class="page-head">
+  <div class="wrap">
+    <h1>Southern Africa</h1>
+    <p>Southern African food is built on maize, meat cooked over fire, and spice traditions brought by Indian, Malay and European communities. Sharing a meal around the fire, the <mark>braai</mark>, is central to social life.</p>
+  </div>
+</div>
+<section>
+  <div class="wrap grid">
+    <div>
+      <h2>Staples</h2>
+      <ul>
+        <li><mark>Maize</mark> as pap and <mark>samp</mark></li>
+        <li>Beans and sorghum</li>
+        <li>Cape <mark>curry</mark> powders and chili relish</li>
+        <li>Beef, lamb, chicken and offal</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Cooking techniques</h2>
+      <ul>
+        <li><mark>Braai</mark>: grilling over open coals</li>
+        <li><mark>Slow boiling</mark> samp for hours</li>
+        <li>Cooking in a three-legged <mark>potjie</mark> pot</li>
+        <li><mark>Sun-drying</mark> meat as biltong</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="band-red">
+  <div class="wrap">
+    <h2>Watch: cooking in Southern Africa</h2>
+    <div class="video"><iframe src="https://www.youtube.com/embed/bPdQWSik_Ag" title="Cooking in Southern Africa" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <h2>Dishes to try</h2>
+    <div class="grid">
+<article class="card recipe-card" data-region="southern-africa" id="card-chicken-feet-samp">
+  <figure>
+    <img src="https://i.pinimg.com/736x/73/23/fe/7323fe92f0fc83a772e9f3d8ab295155.jpg" alt="A plate of Chicken Feet and Samp" loading="lazy">
+    <figcaption>Chicken Feet and Samp <span class="tag south">Southern Africa</span></figcaption>
+  </figure>
+  <div class="card-body">
+    <p>Chicken feet simmered in a tomato and <mark>curry</mark> sauce, served over <mark>samp</mark>.</p>
+    <div class="card-actions">
+      <a class="more" href="chicken-feet-samp.html">View recipe</a>
+      <button class="fav-btn" type="button" data-id="chicken-feet-samp" aria-pressed="false"><span class="heart">❤️</span> Favorite</button>
+    </div>
+  </div>
+</article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>About</h3>
+        <p>A student project celebrating the food, people and history of the African continent.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="recipes.html">All recipes</a></li>
+          <li><a href="west-africa.html">West Africa</a></li>
+          <li><a href="east-africa.html">East Africa</a></li>
+          <li><a href="north-africa.html">North Africa</a></li>
+          <li><a href="southern-africa.html">Southern Africa</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get new recipes</h3>
+        <form class="news-form" id="news-form">
+          <label class="sr-only" for="news-email">Email address</label>
+          <input type="email" id="news-email" placeholder="you@example.com" required>
+          <button class="btn alt" type="submit">Subscribe</button>
+        </form>
+        <p class="news-msg" id="news-msg" aria-live="polite"></p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Tastes of Africa. Images are used for educational purposes.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
