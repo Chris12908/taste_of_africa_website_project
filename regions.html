@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Culinary regions of Africa.">
+  <title>Regions | Tastes of Africa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bowlby+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="logo" href="index.html">Tastes of Africa</a>
+    <nav aria-label="Main navigation">
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="regions.html" aria-current="page">Regions</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-list">Menu</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<div class="page-head"><div class="wrap"><h1>Culinary regions</h1><p>Africa has dozens of food cultures. This site covers four of them.</p></div></div>
+<section><div class="wrap grid">
+  <a class="region-card" href="west-africa.html"><img src="https://i.pinimg.com/736x/de/1a/1d/de1a1d9f9a533c49b49ee90f644a5dec.jpg" alt="Fried plantain, a West African favourite" loading="lazy"><span><strong>West Africa</strong>Fufu, fried plantain and palm oil stews.</span></a>
+  <a class="region-card" href="east-africa.html"><img src="https://i.pinimg.com/1200x/a0/03/b9/a003b93ad42274c7b4c2451e0cabbdfc.jpg" alt="Stewed beans, an East African staple" loading="lazy"><span><strong>East Africa</strong>Doro wat, chicken kienyeji and stewed beans.</span></a>
+  <a class="region-card" href="north-africa.html"><img src="https://i.pinimg.com/1200x/f7/04/8c/f7048c7af092755b7cba0b51bc6d31cd.jpg" alt="Moroccan couscous, a North African dish" loading="lazy"><span><strong>North Africa</strong>Moroccan couscous with vegetables and chickpeas.</span></a>
+  <a class="region-card" href="southern-africa.html"><img src="https://i.pinimg.com/736x/73/23/fe/7323fe92f0fc83a772e9f3d8ab295155.jpg" alt="Chicken feet and damp, a Southern African dish" loading="lazy"><span><strong>Southern Africa</strong>Chicken feet and samp.</span></a>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3>About</h3>
+        <p>A student project celebrating the food, people and history of the African continent.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="recipes.html">All recipes</a></li>
+          <li><a href="west-africa.html">West Africa</a></li>
+          <li><a href="east-africa.html">East Africa</a></li>
+          <li><a href="north-africa.html">North Africa</a></li>
+          <li><a href="southern-africa.html">Southern Africa</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get new recipes</h3>
+        <form class="news-form" id="news-form">
+          <label class="sr-only" for="news-email">Email address</label>
+          <input type="email" id="news-email" placeholder="you@example.com" required>
+          <button class="btn alt" type="submit">Subscribe</button>
+        </form>
+        <p class="news-msg" id="news-msg" aria-live="polite"></p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Tastes of Africa. Images are used for educational purposes.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
